@@ -3,7 +3,7 @@
 
 ------
 
-fafqarr，即 ``fast_add_fast_query_array`` （原谅我小学英语水平），支持在 $O(\log n)$ 的时间复杂度上区间加，区间求和的数组
+fafqarr，即 ``fast_add_fast_query_array`` （原谅我小学英语水平），支持在 $O(\log n)$ 的时间复杂度上单点修改，区间加，区间求和的数组
 
 内部由“超级树状数组”实现
 
