@@ -35,8 +35,6 @@ cout<<a(2,5);
 a[{x,y}]、a(x)分别与a(x,y)、a[x]用法相同，可根据自己习惯取用
 ```
 
-**注：若定义``fafqarr<T,maxn>``，则有效下标为1~maxn；即使求和时没爆int，但有可能实现时爆掉，所以最好定义long long**
-
 实例：（[线段树1](https://www.luogu.com.cn/problem/P3372)）
 
 ```cpp
@@ -56,8 +54,10 @@ int main(){
 
 注：
 
-- 运算时可能会溢出
+- 运算时可能会溢出（不单单是求和的溢出，有可能求和没有溢出，但是**因为实现的原因会溢出**）
 
-- 若 ``a`` 为 ``fafqarr`` ，``x`` 和 ``y`` 为整数，则调用 ``a[{x,y}]`` 或 ``a(x,y)`` 时必须保证 $1\leq x\leq y\leq \text{maxn}$，调用 ``a[x]`` 或 ``a(x)`` 时必须保证 $1\leq x\leq maxn$
+- 若 ``a`` 为 ``fafqarr`` ，``x`` 和 ``y`` 为整数，则调用 ``a[{x,y}]`` 或 ``a(x,y)`` 时必须保证 $1\leq x\leq y\leq \text{maxn}$ ，调用 ``a[x]`` 或 ``a(x)`` 时必须保证 $1\leq x\leq maxn$（即 **有效下标为1~maxn**）
+
+
 [在luogu blog中查看](https://konyakest.blog.luogu.org/fafqarr)
 
