@@ -103,6 +103,6 @@ private:
 
 #undef inline
 #undef lowbit
-#define F(i,j,k)
+#undef F(i,j,k)
 
 #endif
