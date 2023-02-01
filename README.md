@@ -56,7 +56,7 @@ int main(){
 
 - 运算时可能会溢出（不单单是求和的溢出，有可能求和没有溢出，但是**因为实现的原因会溢出**）
 
-- 若 ``a`` 为 ``fafqarr`` ，``x`` 和 ``y`` 为整数，则调用 ``a[{x,y}]`` 或 ``a(x,y)`` 时必须保证 $1\leq x\leq y\leq \text{maxn}$ ，调用 ``a[x]`` 或 ``a(x)`` 时必须保证 $1\leq x\leq maxn$（即 **有效下标为1~maxn**）
+- 若 ``a`` 为 ``fafqarr`` ，``x`` 和 ``y`` 为整数，则调用 ``a[{x,y}]`` 或 ``a(x,y)`` 时必须保证 $1\leq x\leq y\leq \text{maxn}$ ，调用 ``a[x]`` 或 ``a(x)`` 时必须保证 $1\leq x\leq \text{maxn}$（即 **有效下标为1~maxn**）
 
 
 [在luogu blog中查看](https://konyakest.blog.luogu.org/fafqarr)
