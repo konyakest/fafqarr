@@ -2,7 +2,7 @@
 #include"fafqarr.h"
 using namespace std;
 #define F(i,j,k) for(int i=j;i<=k;i++)
-fafqarr<long long,5e5+5> q;
+fafqarr<long long,(int)5e5+5> q;
 int n,m,x,y,k,op;
 int main(){
     cin>>n>>m;
