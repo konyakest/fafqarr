@@ -38,6 +38,10 @@ a[{x,y}]、a(x)分别与a(x,y)、a[x]用法相同，可根据自己习惯取用
 实例：（[线段树1](https://www.luogu.com.cn/problem/P3372)）
 
 ```cpp
+#include<bits/stdc++.h>
+#include"fafqarr.h"
+using namespace std;
+#define F(i,j,k) for(int i=j;i<=k;i++)
 fafqarr<long long,(int)5e5+5> q;
 int n,m,x,y,k,op;
 int main(){
